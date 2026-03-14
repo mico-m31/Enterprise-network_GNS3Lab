@@ -1,0 +1,17 @@
+$TTL 604800
+@       IN      SOA     ns1.company.local. admin.company.local.  (
+                              6         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+; Name Servers
+@       IN      NS      ns1.company.local.
+
+; A Records 
+ns1     IN      A       10.10.60.10
+
+; CNAME (alias)
+www     IN      CNAME   company.local.
+
+company.local.	IN	A	10.10.70.10

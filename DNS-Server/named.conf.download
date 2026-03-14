@@ -1,0 +1,15 @@
+zone "homelab.local" {
+	type master;
+	
+	file "/etc/bind/db.local";
+};
+
+zone "company.local" {
+	type master;
+	file "/etc/bind/db.company.local";
+};
+
+zone "10.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.10.10";
+};
