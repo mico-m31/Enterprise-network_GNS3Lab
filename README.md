@@ -1,6 +1,6 @@
 # Enterprise Campus Network — Documentation
 
-**Project Type:** Network Design & Implementation (Lab Simulation)
+**Project Type:** Network Design & Implementation (Virtual Simulation)
 **Platform:** GNS3 (Arista vEOS, MikroTik CHR)
 **Status:** Implemented and functionally tested
 
@@ -84,7 +84,7 @@ Each edge router redistributes/advertises a default route (`0.0.0.0/0`) into OSP
 
 ### 5.2 VLAN Segmentation & 802.1Q Trunking
 
-Client traffic is segmented into six VLANs (see addressing table above) by department/function. Access switches carry single-VLAN access ports to end devices; uplinks between access → distribution → core are configured as 802.1Q trunks carrying only the VLANs required on each link (not a blanket allow-all), reducing unnecessary broadcast propagation.
+Client traffic is segmented into six VLANs (see addressing table above) by department/function. Access switches carry single-VLAN access ports to end devices; uplinks between access → distribution → core are configured as 802.1Q trunks carrying only the VLANs required on each link, reducing unnecessary broadcast propagation.
 
 ### 5.3 Inter-VLAN Routing
 
