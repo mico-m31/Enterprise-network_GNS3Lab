@@ -1,6 +1,6 @@
 # Enterprise Campus Network — Documentation
 
-**Project Type:** Network Design & Implementation (Lab Simulation)
+**Project Type:** Network Design & Implementation (Virtual Simulation)
 **Platform:** GNS3 (Arista vEOS, MikroTik CHR)
 **Status:** Implemented and functionally tested
 
